@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Вход</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::RightToLeft</enum>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image:url(Background_1.png);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>170</y>
+      <width>402</width>
+      <height>293</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>7</number>
+     </property>
+     <property name="sizeConstraint">
+      <enum>QLayout::SetFixedSize</enum>
+     </property>
+     <item>
+      <widget class="QLabel" name="log_in">
+       <property name="styleSheet">
+        <string notr="true">font-family: Red Hat Text;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 154.8%;
+opacity: 0;</string>
+       </property>
+       <property name="text">
+        <string>Вход</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="Login_le">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-family: Red Hat Text;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 0%;
+/* or 0px */
+letter-spacing: -0.05em;
+
+color: #000000;
+position: absolute;
+width: 344px;
+height: 51px;
+left: 548px;
+top: 299px;
+
+
+background: #FFFFFF;
+border-radius: 10px;</string>
+       </property>
+       <property name="inputMask">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>Логин</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="Password_le">
+       <property name="styleSheet">
+        <string notr="true">position: absolute;
+width: 150px;
+height: 25px;
+left: 570px;
+top: 392px;
+
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 0%;
+/* or 0px */
+
+letter-spacing: -0.05em;
+
+color: #000000;
+position: absolute;
+width: 344px;
+height: 51px;
+left: 548px;
+top: 299px;
+
+background: #FFFFFF;
+border-radius: 10px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>Пароль</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sign_in">
+       <property name="styleSheet">
+        <string notr="true">font-family: Red Hat Text;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 0%;
+
+position: absolute;
+width: 400px;
+height: 40px;
+left: 520px;
+top: 511px;
+
+background: #CFEBF9;
+border-radius: 10px;</string>
+       </property>
+       <property name="text">
+        <string>Войти</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sign_up">
+       <property name="styleSheet">
+        <string notr="true">font-family: Red Hat Text;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 0%;
+
+position: absolute;
+width: 400px;
+height: 40px;
+left: 520px;
+top: 464px;
+
+background: #CFEBF9;
+border-radius: 10px;</string>
+       </property>
+       <property name="text">
+        <string>Зарегестрироваться</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="Message">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>460</y>
+      <width>461</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: Red Hat Text;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

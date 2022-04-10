@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="category">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>130</y>
+      <width>581</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+width: 550px;
+height: 60px;
+
+background: #FFFFFF;
+border-radius: 20px;
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 0%;</string>
+    </property>
+    <property name="placeholderText">
+     <string>Название</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>10</y>
+      <width>371</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+width: 400px;
+height: 70px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 65px;
+line-height: 79px;
+
+color: #3C9897;</string>
+    </property>
+    <property name="text">
+     <string>ЭКОГОРОД</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="photo">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>680</y>
+      <width>581</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+width: 550px;
+height: 60px;
+
+background: #FFFFFF;
+border-radius: 20px;
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 0%;</string>
+    </property>
+    <property name="text">
+     <string>ПРИКРЕПИТЬ ФОТО</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="send">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>750</y>
+      <width>581</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+width: 550px;
+height: 60px;
+
+background: #FFFFFF;
+border-radius: 20px;
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 0%;</string>
+    </property>
+    <property name="text">
+     <string>ОТПРАВИТЬ</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="message">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>200</y>
+      <width>581</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+width: 550px;
+height: 390px;
+
+background: #FFFFFF;
+border-radius: 20px;
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 0%;</string>
+    </property>
+    <property name="placeholderText">
+     <string>Описание</string>
+    </property>
+   </widget>
+   <widget class="QWebEngineView" name="map" native="true">
+    <property name="geometry">
+     <rect>
+      <x>1140</x>
+      <y>130</y>
+      <width>591</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+width: 600px;
+height: 730px;
+
+background: #FFFFFF;
+border-radius: 20px;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="apply_address">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>610</y>
+      <width>581</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+width: 550px;
+height: 60px;
+
+background: #FFFFFF;
+border-radius: 20px;
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 0%;</string>
+    </property>
+    <property name="text">
+     <string>ПОДТВЕРДИТЬ АДРЕС</string>
+    </property>
+   </widget>
+   <zorder>message</zorder>
+   <zorder>category</zorder>
+   <zorder>label</zorder>
+   <zorder>photo</zorder>
+   <zorder>send</zorder>
+   <zorder>map</zorder>
+   <zorder>apply_address</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebEngineView</class>
+   <extends>QWidget</extends>
+   <header location="global">PyQt5.QtWebEngineWidgets</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

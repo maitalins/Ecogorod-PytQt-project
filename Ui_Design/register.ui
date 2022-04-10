@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1435</width>
+    <height>1051</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>Регистрация</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::RightToLeft</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>160</y>
+      <width>402</width>
+      <height>270</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="log_in">
+       <property name="styleSheet">
+        <string notr="true">font-family: Red Hat Text;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 154.8%;</string>
+       </property>
+       <property name="text">
+        <string>Регистрация</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="Login_le">
+       <property name="styleSheet">
+        <string notr="true">font-family: Red Hat Text;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 0%;
+/* or 0px */
+
+letter-spacing: -0.05em;
+color: #00000;
+position: absolute;
+width: 344px;
+height: 51px;
+left: 548px;
+top: 299px;
+
+background: #FFFFFF;
+border-radius: 10px;</string>
+       </property>
+       <property name="inputMask">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>Логин</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="Password_le">
+       <property name="styleSheet">
+        <string notr="true">position: absolute;
+width: 150px;
+height: 25px;
+left: 570px;
+top: 392px;
+
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 0%;
+/* or 0px */
+
+letter-spacing: -0.05em;
+
+color: #000000;
+position: absolute;
+width: 344px;
+height: 51px;
+left: 548px;
+top: 299px;
+
+background: #FFFFFF;
+border-radius: 10px;</string>
+       </property>
+       <property name="inputMask">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>Пароль</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sign_up">
+       <property name="styleSheet">
+        <string notr="true">font-family: Red Hat Text;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 0%;
+
+position: absolute;
+width: 400px;
+height: 40px;
+left: 520px;
+top: 464px;
+
+background: #CFEBF9;
+border-radius: 10px;</string>
+       </property>
+       <property name="text">
+        <string>Зарегестрироваться</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="back">
+       <property name="styleSheet">
+        <string notr="true">font-family: Red Hat Text;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 0%;
+
+position: absolute;
+width: 400px;
+height: 40px;
+left: 520px;
+top: 511px;
+
+background: #CFEBF9;
+border-radius: 10px;</string>
+       </property>
+       <property name="text">
+        <string>Назад</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="Message">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>430</y>
+      <width>501</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: Red Hat Text;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

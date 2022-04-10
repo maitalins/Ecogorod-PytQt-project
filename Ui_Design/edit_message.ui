@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="edit">
+    <property name="geometry">
+     <rect>
+      <x>1310</x>
+      <y>800</y>
+      <width>241</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+width: 540px;
+height: 71px;
+
+background: #FFFFFF;
+border-radius: 10px;
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 0%;</string>
+    </property>
+    <property name="text">
+     <string>Редактировать</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="database">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>210</y>
+      <width>1180</width>
+      <height>554</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+width: 1180px;
+height: 554px;
+
+background: #FFFFFF;
+border-radius: 10px;</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="id">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>800</y>
+      <width>471</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+width: 540px;
+height: 71px;
+
+background: #FFFFFF;
+border-radius: 10px;
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 0%;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="help">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>890</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #FFFFFF;
+border-radius: 10px;
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 0%;</string>
+    </property>
+    <property name="text">
+     <string>Помощь</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="del">
+    <property name="geometry">
+     <rect>
+      <x>1030</x>
+      <y>800</y>
+      <width>241</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+width: 540px;
+height: 71px;
+
+background: #FFFFFF;
+border-radius: 10px;
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 0%;</string>
+    </property>
+    <property name="text">
+     <string>Удалить</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
